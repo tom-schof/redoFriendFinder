@@ -16,8 +16,7 @@ module.exports = function(app) {
     });
 
     app.post("/api/friends", function (req, res) {
-        // console.log(req);
-        console.log(req.body.scores);
+       
         for (var i = 0; i < friendsData.length; i++) {
             totalDifference = 0;
             for (var j = 0; j < req.body.scores.length; j++) {
@@ -30,8 +29,6 @@ module.exports = function(app) {
         }
 
         res.json(friendsData[friendIndex]);
-        console.log(friendsData[friendIndex]);
-        console.log(friendIndex);
         friendsData.push(req.body);
         smallestDifference = 500;
     });

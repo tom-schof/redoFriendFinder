@@ -22,14 +22,12 @@ $("#submit").on( "click", function() {
     function(data) {
         $("#match-name").text(data.name);
         $("#match-image").attr("src", data.photo);
-        $("#match-img").height(200);
-        $("#match-img").height(200);
+        $("#match-image").height(250);
+        $("#match-image").height(250);
 
     });
 
 
 
-    $("#resultsModal").modal({
-        show: "true"
-    });
+    $("#resultsModal").modal("show");
   })
