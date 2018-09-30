@@ -1,0 +1,31 @@
+body{
+    background-image: url("./images/bananas.png");
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 64pt;
+    color: navy;
+}
+
+.jumbotron{
+    background-color: rgb(85, 204, 188);
+    font-size: 24pt;
+}
+
+#survey{
+    font-family: 'Pacifico', cursive;
+    background-color: navy;
+    color: rgb(207, 207, 207);
+}
+
+#submit{
+    font-family: 'Pacifico', cursive;
+    background-color: navy;
+    color: rgb(207, 207, 207);
+}
+
+h3{
+    color: navy;
+}
+
